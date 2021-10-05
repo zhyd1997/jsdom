@@ -4,13 +4,7 @@
 
 name: JSDOM-CI
 
-on:
-  push:
-    branches:
-     - master
-  pull_request:
-    branches:
-     - master
+on: push
 
 jobs:
   lint:
